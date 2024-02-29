@@ -1,0 +1,168 @@
+body {
+    background: linear-gradient(to right, #f4c5d5, #ffc08f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+@font-face {
+    font-family: 'underrated';
+    src: url('fonts/underrated.ttf') format('truetype');
+}
+
+header {
+    position: relative;
+    height: 14vh;
+    width: 98%;
+    overflow: visible;
+    background-color: #fff1ec;
+    margin-bottom: 30px;
+    margin-top: 0; 
+    border-radius: 30px;
+    
+}
+
+header img {
+    position: absolute;
+    top: 22%;
+    right: 91%; 
+    width: 100px;
+    height: auto;
+    transform: scale(140%);
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Puedes ajustar el color del texto según tus preferencias */
+    margin: 0 20px;
+    margin-top: 30%; 
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 39.5px 50px; /* Puedes ajustar la altura según tus necesidades */
+    margin-right: 0%;
+}
+
+a{
+    color: #ffff;
+    font-family: 'underrated';
+}
+
+li{
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 500ms;
+    font-size: 15px;
+    margin-right: 50px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #ffc7ba, #ffd5b1);
+}
+.titulo-productos {
+    display: flex;
+    text-align: center;
+    display: block;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-family: underrated;
+    font-size: 300%;
+    color: #fffffb;
+}
+
+.articulos {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    scale: 70%;
+    cursor: pointer;
+    margin-top: 0%; 
+}
+
+
+.article-platos,
+.article-premios,
+.article-alimento,
+.article-premios-perros {
+    flex: 0 0 calc(33.33% - 20px); /* Ajuste del ancho de las tarjetas, 3 tarjetas por fila con gap de 20px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+
+.article-platos img,
+.article-premios img,
+.article-alimento img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.article-premios-perros img{
+    width: 60%;
+    align-content: center;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.description-container {
+    padding: 30px;
+    text-align: center;
+    font-family: prosto;
+}
+
+.article-platos h2,
+.article-premios h2,
+.article-alimento h2,
+.article-premios-perros h2 {
+    color: #E67167;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.article-platos p,
+.article-premios p,
+.article-alimento p,
+.article-premios-perros p {
+color: #E69D67;
+font-size: 1rem;
+line-height: 1.5;
+margin-bottom: 0;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+}
+.footer-content {
+    text-align: center;
+}
